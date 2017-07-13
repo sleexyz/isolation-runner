@@ -1,0 +1,17 @@
+{
+  "name": "isolated",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sleexyz/isolated.git",
+  "author": "Sean Lee <freshdried@gmail.com>",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "^0.48.0",
+    "jest": "^20.0.4"
+  },
+  "scripts": {
+    "test": "flow && yarn unit-test",
+    "unit-test": "jest"
+  }
+}
